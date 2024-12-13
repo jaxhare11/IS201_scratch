@@ -1,0 +1,76 @@
+body {
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover; /* This makes sure the image covers the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    color: darkgoldenrod;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 6px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+}
+p{
+    font-family: sans-serif;
+    font-size: large;
+}
+ul{
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: normal;
+}
+.bold{
+    font-size: larger;
+    font-weight: bold;
+}
+li{
+    font-weight: normal;
+    font-size: large;
+}
+a{
+    text-align: center;
+    font-family: sans-serif;
+}
+.homebg{
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?t=st=1734120766~exp=1734124366~hmac=60c4c1f4f5e5b5d02cb0da6373218062a1f410fc5fd124fc1cc037523e586fa5&w=2000);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top_url{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.intro{
+    background-color: whitesmoke;
+    border: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #cccc;
+}
+.bottom_url{
+    position: absolute;
+    right: 5px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    border: #cccc 3px;
+    border-style: solid;
+    padding: 10px;
+    padding-right: 40px;
+    display: inline-block;
+}
